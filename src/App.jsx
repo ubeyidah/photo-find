@@ -31,6 +31,7 @@ const App = () => {
   const handleBtn = () => {
     fetchImages(searchTerm);
   };
+  console.log(page);
   return (
     <main className="px-5 pt-52">
       <header className="flex items-center justify-center flex-col pt-10 gap-6 fixed top-0 left-0 right-0 bg-slate-100 border-b p-3 pb-6 z-50">
