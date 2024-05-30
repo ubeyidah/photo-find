@@ -1,7 +1,7 @@
 import React from "react";
 
-const ImagesGallery = () => {
+const ImageCard = ({ images }) => {
   return <div>ImagesGallery</div>;
 };
 
-export default ImagesGallery;
+export default ImageCard;
